@@ -37,8 +37,9 @@ header, footer {
 }
 
 .container {
-    padding: 2.5px;
+    padding: 75px;
     width: 80%;
+    height: 400px;
     margin: auto;
     text-align: center;
     background-color: #fff;
