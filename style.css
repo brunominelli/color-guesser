@@ -1,3 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header, footer {
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    background-color: #000;
+}
+
 .ball {
     display: inline-block;
     border: 1px solid rgb(0, 0, 0);
@@ -5,7 +19,7 @@
     margin: 10px;
     width: 40px;
     height: 40px;
-    padding: 10px;
+    padding: 40px;
     transition: 0.5s;
 }
 
@@ -18,13 +32,34 @@
     text-transform: uppercase;
 }
 
-header, footer {
-    text-align: center;
-    padding: 75px;
+#color-guess {
+    height: 150px;
 }
 
 .container {
+    padding: 2.5px;
     width: 80%;
     margin: auto;
     text-align: center;
+    background-color: #fff;
+}
+
+.btn {
+    width: 20%;
+    margin: 10px;
+    padding: 25px;
+    border: 1px solid #000;
+    border-radius: 5px;
+
+    background-color: #fff;
+    font-size: 20px;
+    color: #000;
+    box-shadow: 3px 3px 3px #bbb;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
 }
